@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Beto Prado | Cantor e Compositor</title>
+  <meta name="description" content="Beto Prado — cantor e compositor. Ouça minhas músicas e acompanhe meu trabalho.">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #080808;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 30px 20px;
+      background:
+        linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.9)),
+        radial-gradient(circle at center, #49351d 0%, #17110b 35%, #080808 75%);
+    }
+
+    .container {
+      width: 100%;
+      max-width: 650px;
+      margin: auto;
+    }
+
+    .photo {
+      width: 180px;
+      height: 180px;
+      margin: 0 auto 25px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #d4af37;
+      box-shadow: 0 0 35px rgba(212,175,55,.35);
+    }
+
+    h1 {
+      font-size: clamp(42px, 10vw, 76px);
+      letter-spacing: 2px;
+      line-height: 1;
+      margin-bottom: 12px;
+    }
+
+    .subtitle {
+      color: #d4af37;
+      font-size: 18px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+
+    .highlight {
+      margin: 25px 0;
+      padding: 25px;
+      border: 1px solid rgba(212,175,55,.45);
+      border-radius: 20px;
+      background: rgba(255,255,255,.06);
+      backdrop-filter: blur(10px);
+    }
+
+    .highlight h2 {
+      font-size: 25px;
+      margin-bottom: 8px;
+    }
+
+    .highlight p {
+      color: #ccc;
+      margin-bottom: 18px;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 13px;
+      margin-top: 25px;
+    }
+
+    .button {
+      display: block;
+      padding: 16px 20px;
+      border-radius: 50px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      font-size: 16px;
+      border: 1px solid rgba(255,255,255,.2);
+      background: rgba(255,255,255,.08);
+      transition: .25s ease;
+    }
+
+    .button:hover {
+      transform: translateY(-3px) scale(1.01);
+      background: #d4af37;
+      color: #080808;
+      box-shadow: 0 8px 25px rgba(212,175,55,.25);
+    }
+
+    .gold {
+      background: #d4af37;
+      color: #080808;
+      border-color: #d4af37;
+    }
+
+    .section {
+      padding: 70px 20px;
+      text-align: center;
+      background: #0d0d0d;
+    }
+
+    .section h2 {
+      font-size: 34px;
+      margin-bottom: 15px;
+    }
+
+    .section p {
+      max-width: 600px;
+      margin: auto;
+      color: #aaa;
+    }
+
+    footer {
+      padding: 30px 20px;
+      text-align: center;
+      color: #777;
+      font-size: 14px;
+      background: #050505;
+    }
+
+    @media (max-width: 500px) {
+      .photo {
+        width: 145px;
+        height: 145px;
+      }
+
+      .hero {
+        min-height: 100svh;
+      }
+
+      .highlight {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="hero">
+    <div class="container">
+
+      <!-- FOTO DO BETO PRADO -->
+      <img
+        class="photo"
+        src="https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?auto=format&fit=crop&w=500&q=80"
+        alt="Beto Prado">
+
+      <h1>Beto Prado</h1>
+
+      <div class="subtitle">
+        Cantor e Compositor
+      </div>
+
+      <div class="highlight">
+        <h2>🎵 Música em destaque</h2>
+        <p>
+          Confira a música atual de Beto Prado.
+        </p>
+
+        <!-- COLOQUE AQUI O LINK DA MÚSICA -->
+        <a class="button gold" href="#" target="_blank">
+          ▶ Ouvir agora
+        </a>
+      </div>
+
+      <div class="buttons">
+
+        <!-- SUBSTITUIR PELOS LINKS REAIS -->
+        <a class="button" href="#" target="_blank">
+          🎧 Spotify
+        </a>
+
+        <a class="button" href="#" target="_blank">
+          ▶️ YouTube
+        </a>
+
+        <a class="button" href="#" target="_blank">
+          📸 Instagram
+        </a>
+
+        <a class="button" href="#" target="_blank">
+          🎵 TikTok
+        </a>
+
+        <a class="button" href="#musicas">
+          🎼 Músicas
+        </a>
+
+        <a class="button" href="mailto:contato@betopradooficial.com">
+          📩 Contato profissional
+        </a>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section" id="musicas">
+    <div class="container">
+
+      <h2>🎼 Músicas</h2>
+
+      <p>
+        Em breve, você poderá encontrar aqui as principais músicas,
+        lançamentos e novidades de Beto Prado.
+      </p>
+
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Beto Prado — Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
